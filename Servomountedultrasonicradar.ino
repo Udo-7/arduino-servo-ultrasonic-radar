@@ -54,6 +54,6 @@ int calculateDistance() {
   // Measure how long it took for the echo to bounce back
   long duration = pulseIn(echoPin, HIGH);
 
-  // Convert time into distance (cm) based on the speed of sound
+  // Convert time into distance (cm) based on the speed of sound(0.034cm/us)
   return duration * 0.034 / 2;
 }
