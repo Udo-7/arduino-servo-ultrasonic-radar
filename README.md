@@ -1,6 +1,4 @@
 # Arduino Servo-Mounted Ultrasonic Radar
-Arduino-based ultrasonic radar system using an HC-SR04 ultrasonic sensor and servo motor to scan distances across a 150° range.
-
 
 An HC-SR04 ultrasonic sensor mounted on a servo that sweeps from 15° to 165° and back, measuring the distance at each angle and sending the readings to the computer over serial.
 
