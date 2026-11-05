@@ -52,7 +52,7 @@ int calculateDistance() {
   digitalWrite(trigPin, LOW);
 
   // Measure how long it took for the echo to bounce back
-  long duration = pulseIn(echoPin, HIGH);
+  long duration = pulseIn(echoPin, HIGH, 2000);
 
   // Convert time into distance (cm) based on the speed of sound(0.034cm/us)
   return duration * 0.034 / 2;
